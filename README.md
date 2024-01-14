@@ -1,9 +1,9 @@
 # Faillissement_2023_analyse
-Python-script dat gegevens over faillissementen voor het jaar 2023 analyseert en visualiseert
+Python-script dat data over faillissementen voor het jaar 2023 analyseert en visualiseert
 
 # Inleiding
 
-De code maakt gebruik van verschillende bibliotheken voor gegevensmanipulatie, reiniging en visualisatie, zoals pandas, matplotlib, seaborn, geopy, geopandas en folium.
+De code maakt gebruik van verschillende bibliotheken voor datamanipulatie, schoonmaken en visualisatie, zoals pandas, matplotlib, seaborn, geopy, geopandas en folium.
 
 # Instructies voor gebruik
 
@@ -16,7 +16,7 @@ De code maakt gebruik van verschillende bibliotheken voor gegevensmanipulatie, r
     'faillissement_database_2023.xlsx': gegevens over faillissementen voor 2023.
     'standaard_bedrijfsindeling_2008_excel1.xlsx': Standaard Bedrijfsindeling (SBI)-codes.
 
-Voer het script uit, en het genereert de volgende visualisaties en gegevensbestanden:
+Voer het script uit, en het genereert de volgende visualisaties en databestanden:
 
 # Visualisaties en Uitvoer
 
@@ -26,7 +26,7 @@ Voer het script uit, en het genereert de volgende visualisaties en gegevensbesta
 
 2. Maandelijkse verdeling van Faillissementen
 
-    Toont een lijnplot van maandelijkse faillissementen en een staafplot van het totale aantal gevallen per maand.
+    Toont een lijnplot van maandelijkse faillissementen en een staafdiagram van het totale aantal gevallen per maand.
 
 3. Verdeling van SBI-codes bij Faillissementen
 
@@ -34,15 +34,15 @@ Voer het script uit, en het genereert de volgende visualisaties en gegevensbesta
 
 4. Geolocatiekaart van Faillissementen
 
-    Creëert een interactieve Folium-kaart met markers die de geolocaties van faillissementen in 2023 vertegenwoordigen.
+    Creëert een interactieve Folium-map met markers die de geolocaties van faillissementen in 2023 vertegenwoordigen.
 
 5. Ruimtelijke Join met Gemeente GeoDataFrame
 
-    Voert een ruimtelijke join uit tussen het faillissementsgegevensframe en een GeoJSON-bestand met gemeentegrenzen.
+    Voert een ruimtelijke join uit tussen het faillissementsdataframe en een GeoJSON-bestand met gemeentegrenzen.
 
 6. Choroplethkaart van Faillissementen per Gemeente
 
-    Toont een choroplethkaart die de verdeling van faillissementen over gemeenten laat zien.
+    Toont een choroplethgrafiek die de verdeling van faillissementen over gemeenten laat zien.
 
 # Uitvoerbestanden
 
